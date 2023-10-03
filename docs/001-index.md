@@ -1,3 +1,7 @@
+---
+slug: /
+---
+
 # Welcome to PCOArt
 
 Art enriches society through the weaving of relations between the cultures that create it and the cultures that receive it. **Partial Common Ownership of Art (PCOArt)** is a new evolving system that allows artists, communities, and holders of art to create structures of shared ownership and distribution of value that better reflects those living relationships.
