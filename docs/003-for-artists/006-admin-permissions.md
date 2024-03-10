@@ -38,6 +38,8 @@ This lowers the implied reach of administrative power, but configuration changes
 
 The current Component Admin roles and their abilities follow:
 
+- **Role Admin** - can change the address(es) assigned to other Component Admin roles
+  - All changes will take immediate effect 
 - **PCO Settings Admin** - can change the Stewardship Cycle Duration and the Honorarium Rate
   - Changes to either field will be applied to the _next_ Stewardship Cycle/Auction Pitch
 - **Auction Pitch Admin** - can change all attributes of the collection's Auction Pitches (except for the initial auction date)
