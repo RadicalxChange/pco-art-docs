@@ -61,10 +61,19 @@ Individual token metadata is commonly implemented with a simple JSON schema and 
 
 :::
 
-## Minting Timing
+## Mint Timing
 
-The PCOArt system allows the Artist to defer the minting of tokens in their collection until the end of their first Auction Pitch. All of the art and metadata are still defined during the creation process, but the on-chain representation of the asset won't be created initially.&#x20;
+The PCOArt system allows the Artist to defer the minting of tokens in their collection until the end of their first [Auction Pitch](auction-pitches). All of the art and metadata are still defined during the creation process, but the on-chain representation of the asset won't be created initially.&#x20;
 
-This can save the Artist gas costs if there's an especially big collection. As PCOArt is initially targeted for support on Ethereum L2s, gas costs shouldn't be prohibitive regardless.&#x20;
+This can save the Artist gas costs if they're creating an especially big collection. As PCOArt is initially targeted for support on Ethereum L2s, gas costs shouldn't be prohibitive regardless.&#x20;
 
-If the Artist wishes to launch their PCOArt with an offline auction or by granting Stewardship directly to a 3rd-party, they should select the option to mint the tokens at creation. This will allow them to transfer the NFT to a new address before the first auction (i.e. assign Stewardship without an auction).
+The app sets the Artist's address as the initial Steward by default if the tokens are minted during creation. The Artist can subsequently transfer the NFT to a new address before the first on-chain Auction Pitch takes place and the PCO system takes over. This setup gives the Artist additional flexibility in launching their collection:
+
+- The artist could set the first on-chain Auction Pitch to the equivalent of 1 [Stewardship Cycle](pco-settings) into the future, run an offline auction, and manually transfer the token to the winner.
+- The artist might want another address or multi-sig to receive the initial auction proceeds. They should mint the token during the creation process and transfer it to the desired address, so it receives the winning bid proceeds.  
+
+:::warning
+
+While the app defaults the initial Steward address to the Artist's, direct interaction with the contracts allows for configuration. This should never be set to a 0 or null address or else the initial Auction Pitch proceeds will be lost.
+
+:::
