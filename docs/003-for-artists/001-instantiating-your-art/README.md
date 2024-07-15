@@ -29,7 +29,7 @@ Artists ultimately have unlimited configurability to define the attributes of wo
 - Properties
   - [Legal License](legal-license) (PCOArt specific)
 
-[Additional Reference](https://docs.opensea.io/docs/metadata-standards)
+[Additional Metadata Standards Reference](https://docs.opensea.io/docs/metadata-standards)
 
 :::info
 **Metadata Upload Instructions**
@@ -57,6 +57,7 @@ Individual token metadata is commonly implemented with a simple JSON schema and 
 9.  Update and save the metadata file for each token as appropriate—-including the `image` path (e.g. `/0.jpeg` to `/1.jpeg`)
 10. Upload the entire template folder (i.e. the folder that contains both the `image` & `metadata` folders) to your storage provider
 11. Copy the IPFS CID of the folder you just uploaded & add it to the `URI (Metadata)` with a leading `ipfs://` identifier (i.e. `ipfs://QmVL...`)
+
     :::
 
 ## Minting Timing
