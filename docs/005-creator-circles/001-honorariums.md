@@ -1,4 +1,4 @@
-# Claiming Honorariums
+# Honorariums
 
 Each PCOArt Collection has its own Creator Circle.&#x20;
 
@@ -18,14 +18,14 @@ An Honorarium of 1 ETH would be distributed as .3 ETH, .2 ETH, & .5 ETH, respect
 If the Artist subsequently adds Dan to the Creator Circle with 10 units. Dan would not have a claim to any of the previous Honorariums but would receive 50% going forward (based on holding 10/20 total units).
 :::
 
-Closing an Auction Pitch will automatically distribute its corresponding Honorium to the Creator Circle, but members need to take action to fully access and withdraw their funds.
+Closing an Auction Pitch will automatically distribute its corresponding Honorarium to the Creator Circle, but members need to take action to fully access and withdraw their funds.
 
-After being added to a Creator Circle, a member needs to `approve` their units in the distribution table. This opt-in transaction allows all previous and subsequent Honorariums to automatically flow to the member's wallet balance. The transaction can be completed at any time and doesn't need to be repeated as Creator Circle units are updated.&#x20;
+After being added to a Creator Circle, a member needs to "accept" their units in the distribution table. This opt-in transaction allows all previous and subsequent Honorariums to automatically flow to the member's wallet balance. The transaction can be completed at any time and doesn't need to be repeated as Creator Circle units are updated.&#x20;
 
 Members with approved units will see their balance of ETHx (a [wrapped version](https://docs.superfluid.finance/superfluid/protocol-overview/in-depth-overview/super-tokens) of ETH used for functional & security purposes) instantly credited after each auction closing. Members can send, spend, and hold ETHx just like any other standard token (actually there's [more functionality](https://docs.superfluid.finance/superfluid/protocol-overview/what-is-superfluid) embedded). They can also withdraw all or part of this balance to "native" ETH token as desired for off-ramping or trading.&#x20;
 
-Accept units
+:::tip
 
-Cumulative paid
+See the [Claiming Honorariums](claiming-honorariums) page for step-by-step transaction help for Creator Circle members.
 
-Withdraw to ETH
+:::

@@ -8,4 +8,4 @@ The PCOArt team has provided a boilerplate supporting license for initial artwor
 
 A prospective Steward's bid therefore represents more than a financial contribution to the Creator Circle, but a commitment to uphold the Creator Circle's cause(s) and the Artist's vision for the artwork. Prospective Stewards are expected to review an artwork's license before participating in an Auction Pitch. Accordingly, Artists have the option to create and adjust Auction Pitch Eligibility criteria to help curate their pool of potential Stewards.&#x20;
 
-Ultimately, the current Steward's rights and responsibilities are temporary by design, each Steward will forever remain part of the networked community grown through the artwork’s circulation.
+Ultimately, the current Steward's rights and responsibilities are temporary by design, but each Steward will forever remain part of the networked community grown through the artwork’s circulation.
