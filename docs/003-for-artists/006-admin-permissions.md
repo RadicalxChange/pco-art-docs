@@ -12,9 +12,9 @@ The PCOArt system offers two tiers of administrative permissions for each collec
 
 This role is the "super admin" of the token collection.&#x20;
 
-It retains the ability to change the designated smart contract address for _all_ modules leveraged in the collection system. This means the Collection Admin can effectively rewire the logic of core PCO functionality and indirectly update the configuration of components even if the Component Admin role is assigned to another address.
+It retains the ability to change the designated smart contract address for _all_ modules leveraged in the collection's PCO implementation. This means the Collection Admin can effectively rewire the logic of core PCO functionality and indirectly update the configuration of components even if the Component Admin role is assigned to another address.
 
-The Collection Admin can also reassign these second-tier admin roles at any time.
+The Collection Admin can also reassign the Component Admin roles at any time.
 
 Operational security and care in exercising this power are tantamount to the ongoing viability of a PCOArt work. Artists may consider assigning this role to a multi-signature account.&#x20;
 
@@ -52,7 +52,7 @@ The current Component Admin roles and their abilities follow:
   - New tokens will be added to the collection sequentially and initial auction times will be set based on the existing offset (including setting an auction in the past).&#x20;
 
 :::info
-We've implemented the Configuration Admin abilities to try to avoid unexpected consequences that violate Steward expectations (e.g. if you change the Stewardship Cycle Duration, it won't shorten/lengthen the current Steward's period).&#x20;
+We've implemented the Component Admin abilities to try to avoid unexpected consequences that violate Steward expectations (e.g. if you change the Stewardship Cycle Duration, it won't shorten/lengthen the current Steward's period).&#x20;
 
-But, just because you _can_ make a change, doesn't necessarily mean that you always _should_. Exercise caution!
+But, just because you _can_ make a change, doesn't necessarily mean that you always _should_. Exercise caution especially when an Auction Pitch is ongoing!
 :::

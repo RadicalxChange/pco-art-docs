@@ -4,10 +4,10 @@
 
 Bidding starts at a low value and proceeds with ascending, public bids. The highest bid at the end of the auction wins.
 
-PCOArt implements its English auction with a fixed (minimum) duration with optional parameters to extend the auction each time a bid is received within a configurable window. These extension parameters help discourage last-second races to submit the highest/winning bid (an important feature for blockchain-based auctions).
+PCOArt implements its English auction with a fixed minimum duration with optional parameters to extend the auction each time a bid is received within a configurable window at the end of the clock. These extension parameters help discourage last-second races to submit the highest/winning bid (an important feature for blockchain-based auctions).
 
 :::info
-**Sample Auction Pitch Configuration**\
+**Sample Auction Pitch Configuration**
 
 Auction Start: 12:00 UTC on October 24, 2023&#x20;
 
@@ -17,9 +17,9 @@ Starting Bid: 0.001 ETH
 
 Bid Increment: 0.001 ETH
 
-Extension Window: 15 mintues
+Extension Window: 15 minutes
 
-Extension Time: 5 minutes\
+Extension Time: 5 minutes
 
 _The first bid received between 11:45 & 12:00 UTC on October 25th would extend the auction until 12:05 UTC. Each subsequent bid when the time left in the auction is less than 15 minutes would extend the auction another 5 minutes._
 :::
@@ -36,7 +36,7 @@ These bids require full collateralization to ensure proper auction closing and f
 - Current Stewards set their Bid Value like everyone else, but submission of their bid _only requires a deposit of the implied Honorarium_. If the Steward were to win the auction, they wouldn't need to pay themselves, but they always need to contribute to the Creator Circle.
 - Prospective Stewards must deposit funds to _cover both their Bid Value and corresponding Honorarium_. These bids are completed with a single, combined transaction. Upon auction close, the split of funds between the previous Steward (Bid Value) and the Creator Circle (Honorarium) happens automatically.
 
-Once bids are submitted, they can be increased at any time with incremental deposits until the auction closes. Only bids that are no longer the highest bid can be canceled and their associated collateral withdrawn.&#x20;
+Once bids are submitted, they can be increased at any time with corresponding incremental deposits until the auction closes. Only bids that are no longer the highest bid can be canceled and their associated collateral withdrawn.&#x20;
 
 Users will see separate "Locked" and "Available" balances for their collateral on a work's auction page along with the available actions that they can trigger.
 
@@ -48,7 +48,7 @@ Not every Auction Pitch allows for open participation. Artists wishing to curate
 
 Once the clock on an auction reaches zero, no more bids are accepted. The highest bidder is in line to become the next Steward of the work but does not officially hold this role yet. The auction requires a Close Auction transaction.
 
-This transaction can be executed by _any_ user—the Artist, Steward, bidder, or casual observer. It formally transitions the work from Auction Pitch to Stewardship Cycle by completing the following actions:
+This transaction can be executed by _any_ user—the Artist, Steward, bidder, or 3rd-party observer. It formally transitions the work from Auction Pitch to Stewardship Cycle by completing the following actions:
 
 - Transferring the associated NFT from the now-former Steward to the winning bidder (if applicable)
 - Releasing the winning Bid Value from the winning bidder's Locked Collateral to the former Steward's Available Collateral balance (if applicable)&#x20;
