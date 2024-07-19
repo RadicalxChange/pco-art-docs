@@ -11,7 +11,7 @@ Insert Screenshot
 By design, anyone can see the current configuration and to-date payouts of a Creator Circle from this page. If you're a member of the Creator Circle, you'll also see the several ways to interact with the Creator Circle and your Honorarium Balance.
 
 ### Accepting Distribution Units
-While your Honorarium balance is already safely allocated to your address without any action, there is a one-time `connectPool` transaction per Creator Circle required to see your token balance updated in real-time. You can complete this transaction by clicking the Accept Units button on the Creator Circle page and executing the transaction. 
+While your Honorarium balance is already safely allocated to your address without any action, there is a one-time `connectPool` transaction per Creator Circle required to see your token balance updated in real-time. You can complete this transaction by clicking the **Accept Units** button next to your address in the Creator Circle Allocation Table and executing the transaction. 
 
 If you don't complete this transaction, your past and future Honorariums are still safe, but you'll have to claim them periodically to see them reflected in your balance.
 
