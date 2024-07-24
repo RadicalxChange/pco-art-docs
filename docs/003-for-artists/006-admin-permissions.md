@@ -41,18 +41,18 @@ The current Component Admin roles and their abilities follow:
 - **Role Admin** - can change the address(es) assigned to other Component Admin roles
   - All changes will take immediate effect 
 - **PCO Settings Admin** - can change the Stewardship Cycle Duration and the Honorarium Rate
-  - Changes to either field will be applied to the _next_ Stewardship Cycle/Auction Pitch
-- **Auction Pitch Admin** - can change all attributes of the collection's Auction Pitches (except for the initial auction date)
+  - Changes to either field will be applied to the _next_ Stewardship Cycle/Stewardship Inauguration
+- **Stewardship Inauguration Admin** - can change all attributes of the collection's Stewardship Inaugurations (except for the initial auction date)
   - All changes will take immediate effect, including if an auction is in progress (exercise caution!)
-- **Auction Pitch Eligibility Admin** - can flip between open or closed eligibility and update the eligibility criteria
+- **Stewardship Inauguration Eligibility Admin** - can flip between open or closed eligibility and update the eligibility criteria
   - All changes will take immediate effect
 - **Creator Circle Admin** - can change Creator Circle membership units including removing/adding members
-  - Changes will be applied when the next Auction Pitch is closed
+  - Changes will be applied when the next Stewardship Inauguration is closed
 - **Mint Additional Tokens Admin** - can add new tokens to a collection after the initial creation event
-  - New tokens will be added to the collection sequentially and initial auction times will be set based on the existing offset (including setting an auction in the past).&#x20;
+  - New tokens will be added to the collection sequentially and initial Stewardship Inauguration times will be set based on the existing offset (including setting an Stewardship Inauguration in the past).&#x20;
 
 :::info
 We've implemented the Component Admin abilities to try to avoid unexpected consequences that violate Steward expectations (e.g. if you change the Stewardship Cycle Duration, it won't shorten/lengthen the current Steward's period).&#x20;
 
-But, just because you _can_ make a change, doesn't necessarily mean that you always _should_. Exercise caution especially when an Auction Pitch is ongoing!
+But, just because you _can_ make a change, doesn't necessarily mean that you always _should_. Exercise caution especially when an Stewardship Inauguration is ongoing!
 :::

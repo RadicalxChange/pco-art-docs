@@ -1,15 +1,15 @@
-# Bidding in Auction Pitches
+# Participating in Stewardship Inaugurations
 
 [English auctions](https://en.wikipedia.org/wiki/English_auction) are one of the most well-known auction types.&#x20;
 
 Bidding starts at a low value and proceeds with ascending, public bids. The highest bid at the end of the auction wins.
 
-PCOArt implements its English auction with a fixed minimum duration with optional parameters to extend the auction each time a bid is received within a configurable window at the end of the clock. These extension parameters help discourage last-second races to submit the highest/winning bid (an important feature for blockchain-based auctions).
+PCOArt implements its first Stewardship Inauguration option as an English auction with a fixed minimum duration with optional parameters to extend the auction each time a bid is received within a configurable window at the end of the clock. These extension parameters help discourage last-second races to submit the highest/winning bid (an important feature for blockchain-based auctions).
 
 :::info
-**Sample Auction Pitch Configuration**
+**Sample Stewardship Inauguration Configuration**
 
-Auction Start: 12:00 UTC on October 24, 2023&#x20;
+Stewardship Inauguration Start: 12:00 UTC on October 24, 2023&#x20;
 
 Duration: 24 Hours
 
@@ -41,17 +41,17 @@ Once bids are submitted, they can be increased at any time with corresponding in
 Users will see separate "Locked" and "Available" balances for their collateral on a work's auction page along with the available actions that they can trigger.
 
 :::caution
-Not every Auction Pitch allows for open participation. Artists wishing to curate their Stewardship pool may optionally configure eligibility criteria for bidding on the work.
+Not every Stewardship Inauguration allows for open participation. Artists wishing to curate their Stewardship pool may optionally configure eligibility criteria for bidding on the work.
 :::
 
 ### Closing an Auction
 
 Once the clock on an auction reaches zero, no more bids are accepted. The highest bidder is in line to become the next Steward of the work but does not officially hold this role yet. The auction requires a Close Auction transaction.
 
-This transaction can be executed by _any_ user—the Artist, Steward, bidder, or 3rd-party observer. It formally transitions the work from Auction Pitch to Stewardship Cycle by completing the following actions:
+This transaction can be executed by _any_ user—the Artist, Steward, bidder, or 3rd-party observer. It formally transitions the work from Stewardship Inauguration to Stewardship Cycle by completing the following actions:
 
 - Transferring the associated NFT from the now-former Steward to the winning bidder (if applicable)
 - Releasing the winning Bid Value from the winning bidder's Locked Collateral to the former Steward's Available Collateral balance (if applicable)&#x20;
 - Transferring the Honorarium from the winning bidder's Locked Collateral to the Creator Circle distribution mechanism
-- Scheduling the start of the next Auction Pitch according to the Stewardship Cycle Duration
+- Scheduling the start of the next Stewardship Inauguration according to the Stewardship Cycle Duration
 - Note: No action is taken on the losing bidders' collateral. As they had previously been outbid, they could already cancel and withdraw their bids.

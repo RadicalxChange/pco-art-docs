@@ -18,20 +18,18 @@ When the SL passes into the hands of the first Steward, they become an agent of 
 
 Through the SL the Artist defines the period of time that each Stewardship Cycle lasts. At the end of each Stewardship Cycle, the incumbent Steward can either recommit to the artwork or the SL will pass on to a new Steward. While possession of the SL and the artwork that it points to are temporary, each Steward will forever remain part of the networked community grown through the artwork’s circulation.
 
-3. _**Auction Pitches**_** institute a periodic ritual for the artwork to enter and re-enter circulation, thereby allowing Stewards to either recommit or for the artwork to pass to a subsequent Steward.**
+3. _**Stewardship Inauguration**_** institute a periodic ritual for the artwork to enter and re-enter circulation, thereby allowing Stewards to either recommit or for the artwork to pass to a subsequent Steward.**
 
-At the end of each Stewardship Cycle, the stewardship interest captured in the SL automatically reverts to an Auction Pitch where eligible potential Stewards have an opportunity to obtain it.
+At the end of each Stewardship Cycle, the stewardship interest captured in the SL automatically reverts to an Stewardship Inauguration where eligible potential Stewards have an opportunity to obtain it.
 
-If a Steward in one Stewardship Cycle ceases the stewardship of the next cycle, they receive the Auction Pitch’s winning bid. A percentage of the bid is also paid by the new Steward to the Creator Circle.
+If a Steward in one Stewardship Cycle ceases the stewardship of the next cycle, they receive the Stewardship Inauguration’s winning bid. A percentage of the bid is also paid by the new Steward to the Creator Circle.
 
-If a Steward in one Stewardship Cycle wins the Auction Pitch for the next period, they simply retain their stewardship interest. Again, a percentage of the winning bid is due to the Creator Circle.
+If a Steward in one Stewardship Cycle wins the Stewardship Inauguration for the next period, they simply retain their stewardship interest. Again, a percentage of the winning bid is due to the Creator Circle.
 
-4. _**Periodic Honorarium**_** is the percentage of the winning bid that passes on to the Creator Circle at each Auction Pitch.**
+4. _**Periodic Honorarium**_** is the percentage of the winning bid that passes on to the Creator Circle at each Stewardship Inauguration.**
 
-The percentage of the winning bid that is due to the Creator Circle at the outset of each new Stewardship Cycle is set by the Artist as part of the SL. The value of the Periodic Honorarium will therefore vary depending on the highest bid placed at each individual Auction Pitch.
+The percentage of the winning bid that is due to the Creator Circle at the outset of each new Stewardship Cycle is set by the Artist as part of the SL. The value of the Periodic Honorarium will therefore vary depending on the highest bid placed at each individual Stewardship Inauguration.
 
 The incumbent Steward will always be at a slight advantage to new potential stewards insofar as they will only need to pay the Periodic Honorarium provided their bid trumps those of the new potential stewards. Of course, the Creator Circle also benefits, since the higher the bid, the higher will the Periodic Honorarium be.
 
 By arranging the rights of an art ecosystem in this way, no one has an absolute ownership interest.
-
-\

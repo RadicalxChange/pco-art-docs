@@ -19,11 +19,11 @@ Under this configuration, Alice would receive 40% of future Periodic Honorarium 
 
 :::
 
-Upon the closing transaction of each [Auction Pitch](auction-pitches), the resulting Honorarium will be distributed to each _current_ member of the Creator Circle based on the number of units they hold at that time. Creator Circle membership can be updated (with optional [admin permissions](admin-permissions)), but changes will not impact previous distributions.
+Upon the closing transaction of each [Stewardship Inauguration](stewardship-inauguration), the resulting Honorarium will be distributed to each _current_ member of the Creator Circle based on the number of units they hold at that time. Creator Circle membership can be updated (with optional [admin permissions](admin-permissions)), but changes will not impact previous distributions.
 
 :::warning
 
-For technical reasons, the total number of Creator Circle units outstanding must be less than the number of wei (the smallest denomination of ETH) to be distributed after an Auction Pitch. This isn't likely to be relevant for most collections, but it is recommended you always assign units in the smallest denominations required to achieve your desired distribution. In the Alice example above, using 40, 30, 20, and 10 units would have an order of magnitude more units than necessary.
+For technical reasons, the total number of Creator Circle units outstanding must be less than the number of wei (the smallest denomination of ETH) to be distributed after an Stewardship Inauguration. This isn't likely to be relevant for most collections, but it is recommended you always assign units in the smallest denominations required to achieve your desired distribution. In the Alice example above, using 40, 30, 20, and 10 units would have an order of magnitude more units than necessary.
 
 :::
 
