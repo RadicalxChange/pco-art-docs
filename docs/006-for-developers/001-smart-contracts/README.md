@@ -8,6 +8,8 @@ There are six core functional components in the PCOArt smart contract system:
 - **Creator Circle** - Defines how Periodic Honorariums are distributed 
 - **Inauguration Eligibility** - Methods for determining who can participate in an Stewardship Inauguration
 - **Configuration Permissions** - Role-based capabilities to update parts of the PCOArt system after initialization
+  
+![PCOArt System Diagram](https://github.com/user-attachments/assets/a8ea14f4-9e35-40ca-b9e3-b03267db0704)
 
 To promote configurability and extensibility, this system is implmented with the [ERC-2535 Diamonds, Mutli-Facets Proxy](https://eips.ethereum.org/EIPS/eip-2535) standard. Each functional area is instantiated as a modular Diamond Facet--making it easy to mix and match different configurations and implmentation approaches. We see this as especially powerful for supporting unique Creator Circle (e.g. DAO stuctures, dyanimic splits, etc.) and Steward Inauguration (e.g. different auction types) approaches.
 
