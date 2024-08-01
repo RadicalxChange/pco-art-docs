@@ -6,7 +6,7 @@ slug: /testnet
 
 PCOArt is currently available for testing on the OP Sepolia testnet. 
 
-RadicalxChange and the Future Art Ecosystems the team at Serpentine Arts Technologies are actively seeking artists and communities interested in developing projects using PCOArt as part of a guided cohort. If you are interested, [please get in touch](fae@serpentinegalleries.org).
+RadicalxChange and the Future Art Ecosystems the team at Serpentine Arts Technologies are actively seeking artists and communities interested in developing projects using PCOArt as part of a guided cohort. If you are interested, [please get in touch](mailto:fae@serpentinegalleries.org).
 
 ## Using the System
 
