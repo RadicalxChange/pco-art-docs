@@ -1,3 +1,7 @@
+---
+slug: /testnet
+---
+
 # PCO Testnet Mode
 
 PCOArt is currently available for testing on the OP Sepolia testnet. 

@@ -1,4 +1,4 @@
-# PCO Legal Licence
+# PCO Legal License
 
 You can use a PCO token to point to a legal license that defines the exact rights and responsibilities a steward has in the case of your project. These can and should go beyond the basic token mechanics.
 
