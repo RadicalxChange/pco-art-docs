@@ -6,19 +6,19 @@ After your address is added to a Creator Circle, you'll begin receiving proporti
 ## Checking Units and Balances
 Every PCOArt collection has a publicly accessible Creator Circle page linked from its token pages.
 
-Insert Screenshot
+![Creator Circle](https://github.com/user-attachments/assets/f40064e8-77fc-4647-95de-6237f222a203)
 
 By design, anyone can see the current configuration and to-date payouts of a Creator Circle from this page. If you're a member of the Creator Circle, you'll also see the several ways to interact with the Creator Circle and your Honorarium Balance.
 
-### Accepting Distribution Units
-While your Honorarium balance is already safely allocated to your address without any action, there is a one-time `connectPool` transaction per Creator Circle required to see your token balance updated in real-time. You can complete this transaction by clicking the **Accept Units** button next to your address in the Creator Circle Allocation Table and executing the transaction. 
+### Approving Distribution Units
+While your Honorarium balance is already safely allocated to your address without any action, there is a one-time `connectPool` transaction per Creator Circle required to see your token balance updated in real-time. You can complete this transaction by clicking the **Approve Units** button next to your address in the Creator Circle Allocation Table and executing the transaction. 
 
 If you don't complete this transaction, your past and future Honorariums are still safe, but you'll have to claim them periodically to see them reflected in your balance.
 
 ### Withdraw to ETH
-ETHx and ETH are redeemable 1:1 (every ETHx token corresponds to a locked ETH in the Superfluid protocol contracts), but to your wallet (and exchanges!!!), they are distinct tokens. 
+ETHx and ETH are redeemable 1:1 (every ETHx token corresponds to a locked ETH in the Superfluid protocol contracts), but to your wallet (and exchanges!!!) they are distinct tokens. 
 
-You can unwrap your ETHx to ETH anytime on a Creator Circle page you're a member of or through the [Superfluid App](https://app.superfluid.finance/). Make sure to do this step before trying to deposit your Honorarium to an exchange or an app expecting native ETH.
+You can withdraw ETHx funds to ETH anytime on a Creator Circle page you're a member of or through the [Superfluid App](https://app.superfluid.finance/). Make sure to do this before trying to deposit your Honorarium to an exchange or another app expecting native ETH.
 
 :::tip
 
