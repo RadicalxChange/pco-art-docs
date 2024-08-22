@@ -1,6 +1,6 @@
 # Creator Circles
 
-**Creator Circles** are the individuals or entities that are deemed integral to the creation and ongoing value of a PCOArt work—by providing inspiration and context for the artwork,  participating in producing and maintaining the artwork, and/or contributing implicitly to the artwork's impact.
+**Creator Circles** are the individuals or entities deemed integral to the creation and ongoing value of a PCOArt work—by providing inspiration and context for the artwork,  participating in producing and maintaining the artwork, and/or contributing implicitly to the artwork's impact.
 
 The initial Creator Circle template that we've created is a simple unit-based distribution list. 
 
@@ -23,7 +23,7 @@ Upon the closing transaction of each [Stewardship Inauguration](stewardship-inau
 
 :::warning
 
-For technical reasons, the total number of Creator Circle units outstanding must be less than the number of wei (the smallest denomination of ETH) to be distributed after an Stewardship Inauguration. This isn't likely to be relevant for most collections, but it is recommended you always assign units in the smallest denominations required to achieve your desired distribution. In the Alice example above, using 40, 30, 20, and 10 units would have an order of magnitude more units than necessary.
+For technical reasons, the total number of Creator Circle units outstanding must be less than the number of wei (the smallest denomination of ETH) to be distributed after a Stewardship Inauguration. This isn't likely relevant for most collections, but it's recommended to always assign units in the smallest denominations required to achieve your desired distribution. In the Alice example above, using 40, 30, 20, and 10 units would have an order of magnitude more units than necessary.
 
 :::
 
@@ -34,5 +34,5 @@ For security purposes beyond the scope of this document, this initial disburseme
 
 Members of Creator Circles will need to execute a one-time `Approval` transaction of their units (this action can be done at any time) and then periodically withdraw (technically, "unwrap") their portion of the accumulated Honorarium to their ETH balance.&#x20;
 
-They are able to send & use ETHx if desired, as well.
+They can send & use ETHx if desired, as well.
 :::
