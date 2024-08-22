@@ -5,7 +5,7 @@ _**Stewardship Inaugurations**_ are the periodic ritual for the artwork to enter
 The first Stewardship Inauguration module implemented uses an extending English auction format. This type of auction opens with a low initial bid and accepts increasingly higher bids. The highest bid at the end of the auction time wins. The PCOArt implementation sets an initial auction length that can be configured to automatically extend if a new bid is received within a designated period at the end of the auction. This helps eliminate the incentive to sneak in last-second winning bids.&#x20;
 
 :::tip
-Other Stewardship Inauguration formats such as [Dutch](https://en.wikipedia.org/wiki/Dutch_auction), [Vickery](https://en.wikipedia.org/wiki/Vickrey_auction), and continuous auctions can be integrated into the PCOArt system. Mechanisms that use social and other non-finanical factors to effect ownership transfer can be considered as well.
+Other Stewardship Inauguration formats such as [Dutch](https://en.wikipedia.org/wiki/Dutch_auction), [Vickery](https://en.wikipedia.org/wiki/Vickrey_auction), and continuous auctions can be integrated into the PCOArt system. Mechanisms that use social and other non-financial factors to transfer ownership can be considered as well.
 
 Each option will have a different user experience, technical complexity, and dynamics tradeoffs to fit Artist needs.
 :::
@@ -29,7 +29,7 @@ Artists can set their **Initial Stewardship Inauguration Date** to any future ti
 
 Artists that wish to launch their PCOArt without a standard Stewardship Inauguration can set the initial Stewardship Inauguration date to the equivalent of one Stewardship Cycle into the future and manually transfer the token to the desired initial Steward (e.g. an offline auction winner). 
 
-PCOArt that is created as part of a collection can utilize a **Collection Offset** so that individual Stewardship Inaugurations are staggered by a fixed period (e.g. a 1-day offset could be used to release a collection of 7 with an Stewardship Inauguration starting at 12:00 UTC each day of the week).
+PCOArt that is created as part of a collection can utilize a **Collection Offset** so that individual Stewardship Inaugurations are staggered by a fixed period (e.g. a 1-day offset could be used to release a collection of 7 with a Stewardship Inauguration starting at 12:00 UTC each day of the week).
 
 The remaining English Auction Configuration fields are likely familiar:
 
