@@ -34,7 +34,7 @@ A bid submitted in PCOArt's English auction has two parts:
 These bids require full collateralization to ensure proper auction closing and funds distribution. For a work's current Steward and new prospective Stewards, this means two different things:
 
 - Current Stewards set their Bid Value like everyone else, but submission of their bid _only requires a deposit of the implied Honorarium_. If the Steward were to win the auction, they wouldn't need to pay themselves, but they always need to contribute to the Creator Circle.
-- Prospective Stewards must deposit funds to _cover both their Bid Value and corresponding Honorarium_. These bids are completed with a single, combined transaction. Upon auction close, the split of funds between the previous Steward (Bid Value) and the Creator Circle (Honorarium) happens automatically.
+- Prospective Stewards must deposit funds to _cover both their Bid Value and corresponding Honorarium_. These bids are completed with a single, combined transaction. Upon auction closing, the funds split between the previous Steward (Bid Value) and the Creator Circle (Honorarium) happens automatically.
 
 Once bids are submitted, they can be increased at any time with corresponding incremental deposits until the auction closes. Only bids that are no longer the highest bid can be canceled and their associated collateral withdrawn.&#x20;
 
