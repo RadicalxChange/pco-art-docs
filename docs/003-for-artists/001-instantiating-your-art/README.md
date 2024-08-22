@@ -4,13 +4,13 @@ The PCOArt system empowers Artists to create both stand-alone works and "collect
 
 1. By _minting_ a new token&#x20;
 2. By _wrapping_ an existing NFT
-   - This second method provides a method for adding PCOArt's Stewardship mechanisms to an existing ERC-721 or ERC-1155 NFT while maintaining the original metadata. This feature not yet enabled through the app, but the beta contract functionality is available for use as-is without any representations of its efficacy or security. 
+   - This second method provides a method for adding PCOArt's Stewardship mechanisms to an existing ERC-721 or ERC-1155 NFT while maintaining the original metadata. This feature is not yet enabled through the app, but the beta contract functionality is available for use as-is without any representations of its efficacy or security. 
 
 ## Metadata
 
 PCOArt utilizes the [ERC-721 standard](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/) as the foundation of its smart contract system.
 
-It's a flexible, widely-supported, and battle-tested method for digitally representing unique objects, like art, on Ethereum-based blockchains.
+It's a flexible, widely supported, and battle-tested method for digitally representing unique objects, like art, on Ethereum-based blockchains.
 
 Artists ultimately have unlimited configurability to define the attributes of work within their PCOArt tokens, but industry-standard fields integrated into the PCOArt app include the following: &#x20;
 
@@ -46,7 +46,7 @@ Individual token metadata is commonly implemented with a simple JSON schema and 
    - It should start with `Qm` or `baf` depending on the CID format version used
 5. Open the `0` file from the template `metadata` folder with a text editor
    - Update each metadata field for the first token you want to mint in your collection
-   - Tthe `image` file path should be constructed as follows:
+   - The `image` file path should be constructed as follows:
      - Start with `ipfs://`
      - Then paste the IPFS CID of the `assets` folder (copied in step 4)
      - Add a `/` and the appropriate file name with file type extension (e.g. `/0.png`)
