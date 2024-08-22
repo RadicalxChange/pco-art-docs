@@ -12,11 +12,11 @@ The PCOArt system offers two tiers of administrative permissions for each collec
 
 This role is the "super admin" of the token collection.&#x20;
 
-It retains the ability to change the designated smart contract address for _all_ modules leveraged in the collection's PCO implementation. This means the Collection Admin can effectively rewire the logic of core PCO functionality and indirectly update the configuration of components even if the Component Admin role is assigned to another address.
+It can change the designated smart contract address for _all_ modules leveraged in the collection's PCO implementation. This means the Collection Admin can effectively rewire the logic of core PCO functionality and indirectly update the configuration of components even if the Component Admin role is assigned to another address.
 
 The Collection Admin can also reassign the Component Admin roles at any time.
 
-Operational security and care in exercising this power are tantamount to the ongoing viability of a PCOArt work. Artists may consider assigning this role to a multi-signature account.&#x20;
+Operational security and care in exercising this power are paramount to the ongoing viability of a PCOArt work. Artists may consider assigning this role to a multi-signature account.&#x20;
 
 The primary reason for creating this role is to provide a method to gracefully respond to potential bugs/security flaws in the PCOArt contracts (or in the positive case, incorporate great new functionality!).&#x20;
 
@@ -49,10 +49,10 @@ The current Component Admin roles and their abilities follow:
 - **Creator Circle Admin** - can change Creator Circle membership units including removing/adding members
   - Changes will be applied when the next Stewardship Inauguration is closed
 - **Mint Additional Tokens Admin** - can add new tokens to a collection after the initial creation event
-  - New tokens will be added to the collection sequentially and initial Stewardship Inauguration times will be set based on the existing offset (including setting an Stewardship Inauguration in the past).&#x20;
+  - New tokens will be added to the collection sequentially and initial Stewardship Inauguration times will be set based on the existing offset (including setting a Stewardship Inauguration in the past).&#x20;
 
 :::info
-We've implemented the Component Admin abilities to try to avoid unexpected consequences that violate Steward expectations (e.g. if you change the Stewardship Cycle Duration, it won't shorten/lengthen the current Steward's period).&#x20;
+We've implemented the Component Admin abilities to help avoid unexpected consequences that violate Steward expectations (e.g. if you change the Stewardship Cycle Duration, it won't shorten/lengthen the current Steward's period).&#x20;
 
-But, just because you _can_ make a change, doesn't necessarily mean that you always _should_. Exercise caution especially when an Stewardship Inauguration is ongoing!
+But, just because you _can_ make a change, doesn't necessarily mean that you always _should_. Exercise caution especially when a Stewardship Inauguration is ongoing!
 :::
